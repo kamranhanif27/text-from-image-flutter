@@ -1,0 +1,189 @@
+PODS:
+  - camera (0.0.1):
+    - Flutter
+  - e2e (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_tesseract_ocr (0.3.4):
+    - Flutter
+    - SwiftyTesseract
+  - google_ml_vision (0.0.7):
+    - Flutter
+    - GoogleMLKit/BarcodeScanning (~> 2.2.0)
+    - GoogleMLKit/FaceDetection (~> 2.2.0)
+    - GoogleMLKit/ImageLabeling (~> 2.2.0)
+    - GoogleMLKit/TextRecognition (~> 2.2.0)
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMLKit/BarcodeScanning (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitBarcodeScanning (~> 1.3.0)
+  - GoogleMLKit/FaceDetection (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitFaceDetection (~> 1.3.0)
+  - GoogleMLKit/ImageLabeling (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitImageLabeling (~> 1.3.0)
+  - GoogleMLKit/MLKitCore (2.2.0):
+    - MLKitCommon (~> 3.0.0)
+  - GoogleMLKit/TextRecognition (2.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitTextRecognition (~> 1.3.0)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.1)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - MLImage (1.0.0-beta1)
+  - MLKitBarcodeScanning (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitCommon (3.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - MLKitFaceDetection (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitImageLabeling (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitImageLabelingCommon (~> 1.3)
+    - MLKitVision (~> 1.3)
+    - MLKitVisionKit (~> 2.2)
+  - MLKitImageLabelingCommon (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitObjectDetectionCommon (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitTextRecognition (1.3.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitVision (~> 1.3)
+  - MLKitVision (1.3.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - MLImage (= 1.0.0-beta1)
+    - MLKitCommon (~> 3.0)
+    - Protobuf (~> 3.12)
+  - MLKitVisionKit (2.2.0):
+    - MLKitCommon (~> 3.0)
+    - MLKitImageLabelingCommon (~> 1.3)
+    - MLKitObjectDetectionCommon (~> 1.3)
+    - MLKitVision (~> 1.3)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - PromisesObjC (2.1.0)
+  - Protobuf (3.20.1)
+  - SwiftyTesseract (3.1.3)
+
+DEPENDENCIES:
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - e2e (from `.symlinks/plugins/e2e/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_tesseract_ocr (from `.symlinks/plugins/flutter_tesseract_ocr/ios`)
+  - google_ml_vision (from `.symlinks/plugins/google_ml_vision/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - MLImage
+    - MLKitBarcodeScanning
+    - MLKitCommon
+    - MLKitFaceDetection
+    - MLKitImageLabeling
+    - MLKitImageLabelingCommon
+    - MLKitObjectDetectionCommon
+    - MLKitTextRecognition
+    - MLKitVision
+    - MLKitVisionKit
+    - nanopb
+    - PromisesObjC
+    - Protobuf
+    - SwiftyTesseract
+
+EXTERNAL SOURCES:
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  e2e:
+    :path: ".symlinks/plugins/e2e/ios"
+  Flutter:
+    :path: Flutter
+  flutter_tesseract_ocr:
+    :path: ".symlinks/plugins/flutter_tesseract_ocr/ios"
+  google_ml_vision:
+    :path: ".symlinks/plugins/google_ml_vision/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+
+SPEC CHECKSUMS:
+  camera: 9993f92f2c793e87b65e35f3a23c70582afb05b1
+  e2e: d0c9f8c832b4cc7ab386d0c0f0af67fe5ac0c3bd
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_tesseract_ocr: e7a711e46346f9b43598ca93871fe857bd6d8535
+  google_ml_vision: d16cd76617b3260c4283a28843555a8c6253a171
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleMLKit: 85ffdc9641d05311c76dbba5bbf93059087be12f
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 4577a4cc914a5a07c40a8a0ad0acc22080418c2d
+  image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
+  MLImage: 647f3d580c10b3c9a3f6154f5d7baead60c42a0c
+  MLKitBarcodeScanning: 6b998bd1cfe471ae407a7f647d649494617787c0
+  MLKitCommon: 6d6be0a2e9a6340aad1c1f2b9449c11dee8af70f
+  MLKitFaceDetection: 897f007aa4eb426ef1bac7c66e5451d02ffc2e83
+  MLKitImageLabeling: fc44a4f90b1cf16bcb62c043d477c052ba7539ca
+  MLKitImageLabelingCommon: fbe695a04fb236555e6b7e69e7def153a04324c1
+  MLKitObjectDetectionCommon: 6abf300c61cd781ee3abc8abea8a3f8baca886dc
+  MLKitTextRecognition: fd52b7b3cef00751c202475f5a147e9752130767
+  MLKitVision: 26da299aef93291f24f5200e8372919f73abf3b5
+  MLKitVisionKit: 226bac429eda1d84285409e31ce9da72606850fb
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  Protobuf: b60ec2f51ad74765f44d0c09d2e0579d7de21745
+  SwiftyTesseract: 1f3d96668ae92dc2208d9842c8a59bea9fad2cbb
+
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+
+COCOAPODS: 1.11.3
